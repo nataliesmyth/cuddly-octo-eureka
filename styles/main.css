@@ -1,3 +1,15 @@
+button {
+    background-color: #FF4800;
+    color: #f2f2f2;
+}
+
+button a {
+    color: #f2f2f2;
+}
+
+button a:hover {
+    color:#f2f2f2
+}
 .fa {
     padding: 10px;
     margin: 10px;
