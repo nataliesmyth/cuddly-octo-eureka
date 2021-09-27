@@ -14,6 +14,10 @@ button a:hover {
     color:#f2f2f2
 }
 
+footer {
+    margin: 2em auto;
+}
+
 .coloring-book {
     width: 50%;
     margin: 0 auto;
