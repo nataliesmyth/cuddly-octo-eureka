@@ -66,18 +66,24 @@ footer {
     margin-top: 10px;
 } */
 
-.team-card .team-content .media-icons svg {
-    height: 25px;
-    width: 25px;
+.team-card .team-content .media-icons a {
+    height: 20px;
+    width: 20px;
     background: #fff;
     color: #ff676d;
     margin: 0 4px;
     border-radius: 50%;
     text-align: center;
     line-height: 35px;
-    border: 2px solid;
+    border: 0.0025px solid;
+    font-size: 14px;
 }
 
+.team-card .team-content .media-icons a:hover {
+    border-color: #ff676d;
+    color: #ff676d;
+    background: #fff;
+}
 .coloring-book {
     width: 50%;
     margin: 0 auto;
