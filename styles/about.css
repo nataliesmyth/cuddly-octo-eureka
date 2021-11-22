@@ -76,9 +76,26 @@ nav .navbar .nav-links .links li .arrow {
     transition: all 0.3s ease;
 }
 
-nav .navbar .nav-links .links li:hover .about-arrow,
-nav .navbar .nav-links .links li:hover .services-arrow {
+.navbar .nav-links .links li:hover .about-arrow,
+.navbar .nav-links .links li:hover .services-arrow {
     transform: rotate(180deg);
+}
+
+.navbar .nav-links .links .sub-menu {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    line-height: 40px;
+    background: #3e8da8;
+    border-radius: 0 0 4px 4px;
+}
+
+.navbar .nav-links .links .sub-menu li {
+    padding: 0 22px;
+}
+
+.navbar .nav-links .links .sub-menu li a {
+    color: #000;
 }
 
 .container {
