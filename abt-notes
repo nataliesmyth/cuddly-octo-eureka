@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Bootstrap CSS -->
+<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"><link rel="stylesheet" href="./styles/main.css"> -->
+
+<!-- CSS -->
+<!-- <link rel="stylesheet" href="./styles/main.css"> -->
+<link rel="stylesheet" href="./styles/about.css">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+
+<!-- JavaScript -->
+<script defer src="scripts/index.js"></script>
+<title>YES! Your Empowered Sexuality</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html"><img src="../images/YES_logo.svg" alt="" width="100" ></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+            <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+        </li>
+        <!-- <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+        </li> -->
+        <li class="nav-item">
+            <a class="nav-link" href="donate.html">Donate</a>
+        </li>
+
+        </ul>
+        <a class="nav-link" target="blank" href="https://www.facebook.com/yestoconsent">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+              <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+            </svg>
+          </a>
+
+          <a class="nav-link" target="blank" href="https://www.instagram.com/yestoconsent">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+              <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+            </svg>
+          </a>
+        </li>
+
+          <a class="nav-link" target="blank" href="https://www.twitter.com/yestoconsent">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+              <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+            </svg>
+        </a>
+        </div>
+    </nav>
+
+
+
+
+
+	<div class="container" id="vision">
+		<h1>Our Vision</h1>
+    	<p class="lead">
+        	In order to work towards a world that values bodily autonomy for all, YES! provides anti-oppressive and shame-free sexuality education through a social justice lens to people of all ages and across various forms of media so that we can all live more liberated and healthy lives. 
+      	</p>
+	</div>
+	<div class="container" id="mission">
+		<h1>Our Mission</h1>
+    	<p class="lead">
+            To provide intersectional, consent-based, shame-free sexuality education to all people using interactive workshops, social media, and other mediums.     	</p>
+    </div>
+
+    <!-- <div class="container">
+      <button id="teamBtn">Team</button>
+    
+    
+    
+    <div id="rootElement"></div>
+    </div> -->
+
+
+
+
+
+
+
+
+    <div class="container">
+      <h1>Directors</h1>
+        <div class="card mb-3" style="max-width: 1080;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./images/isy.jpg" class="img-thumbnail img-fluid" alt="isy-abraham-raveson">
+                <h5 class="card-title">Isy Abraham-Raveson (She/They) <b><br>Director of Education</b></h5>
+                <!-- <h6 style="padding-left: 20px;">Director of Education</h6> -->
+                
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <p class="card-text">Isy has a Master’s degree in sexuality education from Widener University and a Bachelor’s degree in Gender and Sexuality Studies from Williams College. She also received training as a a sexuality educator from the Masakhane Center in Newark, NJ where she taught sex ed to middle and high school students. She leads workshops on a variety of topics at colleges around the country and national conferences. One of her favorite workshops to present is on fatphobia and body liberation, which she has facilitated at a variety of locations, including the National Sex Ed Conference, Temple University, and Harvard University. Isy also facilitates trainings for parents on how to talk to their children about sexuality in such locations as the Trans Wellness Conference and the Children’s Hospital of Philadelphia (CHOP).  For Isy, sexuality education is social justice; she does this work because every child has the right to grow up with respect, bodily autonomy, high self-esteem, and accurate information.</p>
+                  <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                </div>
+              </div>
+            </div>
+          </div>
+    <!-- </div> -->
+    
+    <!-- <div class="container"> -->
+        <div class="card mb-3" style="max-width: 1080;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./images/rebecca.jpg" class="img-thumbnail img-fluid" alt="rebecca-klein">
+                <h5 class="card-title">Rebecca Klein (She/They) <b><br>Creative Director</b></h5>
+                <!-- <h6 style="padding-left: 20px;">Creative Director</h6> -->
+                
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <p class="card-text">Rebecca graduated from Montclair State with a degree in English and Creative Writing. While attending university, she attended training at The Masakhane Center and worked with YES! to design and facilitate workshops. Her experience with kids of all ages, through tutoring and counseling, has allowed her to apply her creativity in engaging, age-appropriate ways. Rebecca continues to facilitate workshops, develop educational videos for the organization, plan their annual fundraiser, and host trivia events. Now residing in Philadelphia, she is excited to expand YES!’s reach and connect with as many young people as possible.</p>
+                  <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                </div>
+              </div>
+            </div>
+          </div>
+    <!-- </div> -->
+    
+    <!-- <div class="container"> -->
+        <div class="card mb-3" style="max-width: 1080;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./images/natalie.jpg" class="img-thumbnail img-fluid" alt="isy-abraham-raveson">
+                <h5 class="card-title">Natalie Smyth(She/Her) <b><br>Director of Web Development</b></h5>
+                <!-- <h6 style="padding-left: 20px;">Director of Web Development</h6> -->
+                
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <p class="card-text">Natalie is certified in software engineering from General Assembly, and has a bachelor’s degree in political science from Montclair State University. She has extensive experience with blogging and social media, and has worked for a local elected official, writing both his newsletter and blog, and maintaining his databases. Natalie was a gymnast for 17 years and now teaches classes and coaches team at Diamond Gymnastics.</p>
+                  <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    
+    <div class="container">
+      <h1>
+
+        Board Members
+      </h1>
+      <div class="card mb-3" style="max-width: 1080;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="./images/Ashley_Edwards_square.jpg" class="img-thumbnail img-fluid" alt="ashley-edwards">
+            <h5 class="card-title">Ashley Edwards(She/Her) <b><br>Board President</b></h5>
+            <!-- <h6 style="padding-left: 20px;">Board President</h6> -->
+            
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <p class="card-text">With over 10 years of public health education experience, Ashley is knowledgeable in the areas of pregnancy prevention, HIV/STIs, and reproductive and sexual health. She is an alumna of North Carolina Central University’s (NCCU) Department of Public Health Education (DPHE) where she received her bachelor’s degree. During her enrollment at NCCU DPHE, Ashley was a Center for Disease and Control (CDC) scholarship recipient and obtained her certification in health education, CHES. She later attended Strayer University where she earned her first master’s degree in Public Administration. Currently, Ashley is pursuing her second master’s degree from Widener University, Center for Human Sexuality Studies. Ashley has worked primarily in collaboration with community-based organizations (CBOs), churches, and academic institutions. She currently serves as the President of the Board for YES!</p>
+              <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    <div class="container">
+      <div class="card mb-3" style="max-width: 1080;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="./images/fundraising-coordinator.jpg" class="img-thumbnail img-fluid" alt="isy-abraham-raveson">
+            <h5 class="card-title">Eve Gutman(She/They) <b><br>Fundraising Coordinator</b></h5></h5>
+            <!-- <h6 style="padding-left: 20px;">Fundraising Coordinator</h6> -->
+            
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <p class="card-text">Eve graduated from Haverford College in 2015 with a degree in Anthropology. Soon after, full of excitement to share what they had learned about consent, sex-positivity, and intersectional feminism, Eve co-founded YES! They have extensive experience in education, and have worked with students from 5 months to over 50 years old. Eve has also worked in non-profit administration and grassroots and political campaigns. They are fluent in Spanish, and love to dance, cook, and send and receive letters</p>
+              <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container">
+      <div class="card mb-3" style="max-width: 1080;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="./images/Screen Shot 2021-08-04 at 5.13.39 PM.png" class="img-thumbnail img-fluid" alt="Nat-DiFrank">
+            <h5 class="card-title">Nat DiFrank(they/he)<b><br></b></h5>
+            <!-- <h6 style="padding-left: 20px;">Board Secretary</h6> -->
+            
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <p class="card-text">Nat DiFrank M.Ed is a trauma informed  queer and trans centered sexuality and gender educator.  They are the founder and co-facilitator of the virtual and free support group, Transitioning Through Apocalypse, for trans and gender expansive folks 20 and older. Nat is a white non binary  butch who focuses on utilizing sexuality and gender education as a form of radical community healing. With over 5 years of teaching experience, Nat creates affirming spaces that foster growth, introspection, and vulnerability.</p>
+              <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- <div class="container">
+      <div class="card mb-3" style="max-width: 1080;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="./images/" class="img-thumbnail img-fluid" alt="">
+            <h5 class="card-title">Angelica Thorn(she/her)<b><br></b></h5>
+            <h6 style="padding-left: 20px;">Board Secretary</h6>
+            
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <p class="card-text">Nat DiFrank M.Ed (they/he) is a trauma informed  queer and trans centered sexuality and gender educator.  They are the founder and co-facilitator of the virtual and free support group, Transitioning Through Apocalypse, for trans and gender expansive folks 20 and older. Nat is a white non binary  butch who focuses on utilizing sexuality and gender education as a form of radical community healing. With over 5 years of teaching experience, Nat creates affirming spaces that foster growth, introspection, and vulnerability.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+
