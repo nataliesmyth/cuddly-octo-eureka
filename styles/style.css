@@ -104,7 +104,7 @@ nav .menu {
     border-radius: 5px;
     border: none;
     margin: 0 10px;
-    border: 2px solid #fff;
+    border: 2px solid #ff4800;
     font-size: 20px;
     font-weight: 500;
     padding: 0 10px;
@@ -118,8 +118,8 @@ nav .menu {
     background: none;
 }
 
-.center .btns button:first-child::hover {
-    background: #fff;
+.center .btns button:first-child:hover {
+    background: #ff4800;
     color: #000;
 }
 

@@ -14,15 +14,15 @@ h1 {
 }
 button {
     background-color: #FF4800;
-    color: #f2f2f2;
+    color: #ff4800;
 }
 
 button a {
-    color: #f2f2f2;
+    color: #ff4800;
 }
 
 button a:hover {
-    color:#f2f2f2
+    color:#ff4800
 }
 
 footer {
@@ -35,7 +35,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #f2f2f2;
+    background: #ff4800;
 }
 
 .team-cards .team-card .team-content .team-img {
@@ -163,7 +163,7 @@ h1 {
     transform: rotateY(180deg);
     width: 260px;
     height: 300px;
-    background-color: #f2f2f2
+    background-color: #ff4800
 }
 
 .card-title {
@@ -183,7 +183,7 @@ header {
 }
 
 .card-body {
-    background-color: #f2f2f2
+    background-color: #ff4800
 }
 
 /* .row {
