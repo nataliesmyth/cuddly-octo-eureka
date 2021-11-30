@@ -1,3 +1,10 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -18,6 +25,71 @@ button a:hover {
     color:#f2f2f2
 }
 
+footer {
+    margin: 2em auto;
+}
+
+.team-main {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f2f2f2;
+}
+
+.team-cards .team-card .team-content .team-img {
+    height: 130px;
+    width: 130px;
+}
+
+.team-cards .team-card .team-content {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    text-align: center;
+}
+
+.team-card .team-content .team-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.team-card .team-content .team-details .job {
+    font-size: 20px;
+    color: #ff676d;
+}
+
+.team-card .team-content .team-details .name {
+    text-align: center;
+    font-size: 20px;
+}
+
+/* .team-card .team-content .media-icons {
+    display: flex;
+    margin-top: 10px;
+} */
+
+.team-card .team-content .media-icons a {
+    height: 20px;
+    width: 20px;
+    background: #fff;
+    color: #ff676d;
+    margin: 0 4px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    border: 0.0025px solid;
+    font-size: 14px;
+}
+
+.team-card .team-content .media-icons a:hover {
+    border-color: #ff676d;
+    color: #ff676d;
+    background: #fff;
+}
 .coloring-book {
     width: 50%;
     margin: 0 auto;

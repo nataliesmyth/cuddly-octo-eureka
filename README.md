@@ -11,7 +11,6 @@
 
 Pertinent high-level information about the project
 
-
 ## Setup
 
 Steps for setting things up, particularly if for a CMS
@@ -37,11 +36,11 @@ List of key files and directories, how they're organized and used, etc.
           
     - **Database:** Note any changes to the database. If none, delete this line.
 
-
 ## Design Notes
 
-If needed, pertinent design notes
-
+Black Lives Matter Banner Background:
+Carbon by Atle Mo and Sebastien Grosjean
+    <https://projects.verou.me/css3patterns/#carbon>
 
 ## Credits
 
