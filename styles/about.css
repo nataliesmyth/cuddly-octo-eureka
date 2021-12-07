@@ -16,7 +16,7 @@ html, body {
   display: grid;
   height: 100%;
   place-items: center;
-  background: #C4D8D8;
+  /* background: #C4D8D8; */
 }
 
 .container {
@@ -28,9 +28,15 @@ html, body {
   flex-wrap: wrap;
   padding: 20px;
   margin-top: 90px;
+  border-radius: 5px;
 }
 
-
+.container h2 {
+  padding-left: 350px;
+  padding-right: 25px;
+  padding-bottom: 10px;
+  color: #fff;
+}
 
 .container .box {
   width: calc(33% - 10px);
