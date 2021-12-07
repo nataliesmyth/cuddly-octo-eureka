@@ -3,7 +3,7 @@ console.log('sanity check')
   // search-box open close js code
   let navbar = document.querySelector(".navbar");
   let searchBox = document.querySelector(".search-box .bx-search");
-  // let searchBoxCancel = document.querySelector(".search-box .bx-x");
+  let searchBoxCancel = document.querySelector(".search-box .bx-x");
   
   searchBox.addEventListener("click", ()=>{
     navbar.classList.toggle("showInput");
@@ -27,16 +27,16 @@ console.log('sanity check')
   
   
   // sidebar submenu open close js code
-  let htmlcssArrow = document.querySelector(".about-arrow");
-  htmlcssArrow.onclick = function() {
+  let aboutArrow = document.querySelector(".about-arrow");
+  aboutArrow.onclick = function() {
    navLinks.classList.toggle("show1");
   }
   let moreArrow = document.querySelector(".more-arrow");
   moreArrow.onclick = function() {
    navLinks.classList.toggle("show2");
   }
-  let jsArrow = document.querySelector(".services-arrow");
-  jsArrow.onclick = function() {
+  let servicesArrow = document.querySelector(".services-arrow");
+  servicesArrow.onclick = function() {
    navLinks.classList.toggle("show3");
   }
 
