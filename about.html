@@ -3,85 +3,278 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-----<title>Responsive Profile Cards | CodingLab</title>----->
+  <!-----<title>Responsive Profile Cards | YES!</title>----->
     <link rel="stylesheet" href="./styles/about.css">
     <link rel="stylesheet" href="./styles/nav.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
     <!-- Boxicons CSS -->
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <script defer src="./scripts/index.js"></script>
   </head>
 
   <body>
     <nav>
       <div class="navbar">
-        <div class="logo">
-          <a href="#">YES!</a>
-        </div>
+        <i class='bx bx-menu'></i>
+        <div class="logo"><a href="#">YES!</a></div>
         <div class="nav-links">
+          <div class="sidebar-logo">
+            <span class="logo-name">YES!</span>
+            <i class='bx bx-x' ></i>
+          </div>
           <ul class="links">
-            <li><a href="index.html">HOME</a></li>
+            <li><a href="#">HOME</a></li>
             <li>
-              <a href="./about.html">ABOUT</a>
-              <i class='bx bxs-chevron-down arrow about-arrow '></i>
-              <ul class="about-sub-menu sub-menu">
-                <li><a href="#">Lorem Ipsum</a></li>
-                <li><a href="#">Lorem Ipsum</a></li>
-                <li><a href="#">Lorem Ipsum</a></li>
-                <li><a href="#">Lorem Ipsum</a></li>
-                <li><a href="#">Lorem Ipsum</a></li>
+              <a href="#">ABOUT</a>
+              <i class='bx bxs-chevron-down about-arrow arrow '></i>
+              <ul class="htmlCss-sub-menu sub-menu">
+                <li><a href="#">Our Mission</a></li>
+                <li><a href="#">Our Vision</a></li>
+                <li><a href="#">Our Team</a></li>
+                <li class="more">
+                  <span><a href="#">More</a>
+                  <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                </span>
+                  <ul class="more-sub-menu sub-menu">
+                    <li><a href="#">Lorem Ipsum</a></li>
+                    <li><a href="#">Lorem Ipsum</a></li>
+                    <li><a href="#">Lorem Ipsum</a></li>
+                  </ul>
+                </li>
               </ul>
             </li>
-            <li><a href="#">SERVICES</a>
-              <i class='bx bxs-chevron-down arrow services-arrow '></i>
-              <ul class="services-sub-menu sub-menu">
-                <li><a href="#">Lorem Ipsum</a></li>
-                <li><a href="#">Lorem Ipsum</a></li>
-                <li><a href="#">Lorem Ipsum</a></li>
-                <li><a href="#">Lorem Ipsum</a></li>
-                <li><a href="#">Lorem Ipsum</a></li>
+            <li>
+              <a href="#">SERVICES</a>
+              <i class='bx bxs-chevron-down services-arrow arrow '></i>
+              <ul class="js-sub-menu sub-menu">
+                <li><a href="#">Dynamic Clock</a></li>
+                <li><a href="#">Form Validation</a></li>
+                <li><a href="#">Card Slider</a></li>
+                <li><a href="#">Complete Website</a></li>
               </ul>
             </li>
-            <li><a href="./donate.html">DONATE</a>
-            </li>
-            <li><a href="#">CONTACT</a>
-            </li>
+            <li><a href="#">CONTACT US</a></li>
+            <li><a href="#">DONATE</a></li>
           </ul>
+        </div>
+        <div class="search-box">
+          <i class='bx bx-search'></i>
+          <div class="input-box">
+            <input type="text" placeholder="Search...">
+          </div>
         </div>
       </div>
     </nav>
 
-
     <div class="container">
+      <h2>Board and Directors</h2>
       <div class="box">
-      <div class="image">
-        <img src="./team/angelica-thorne.png" alt="">
+        <div class="image">
+          <img src="./team/angelica-thorne.png" alt="">
         </div>
         <div class="name_job">Angelica Thorne <br>(she/her)<br>
-        Co-Treasurer</div>
+          Board Co-Treasurer</div>
+          <!-- <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+          </div> -->
+          <!-- <p> Lorem ipsum dolor sitamet, stphen hawkin so adipisicing elit. Ratione disuja doloremque reiciendi nemo.</p> -->
+          <div class="btns">
+            <!-- <button>Read More</button> -->
+            <!-- <button>Subscribe</button> -->
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="./images/Ashley_Edwards_square.jpg" alt="">
+          </div>
+          <div class="name_job">Ashley Edwards <br>(she/her)<br>
+            Board President
+          </div>
+          <!-- <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+          </div> -->
+          <!-- <p> Lorem ipsum dolor sitamet, stphen hawkin so adipisicing elit. Ratione disuja doloremque reiciendi nemo.</p> -->
+          <div class="btns">
+            <!-- <button>Read More</button> -->
+            <!-- <button>Subscribe</button> -->
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="./images/fundraising-coordinator.jpg" alt="">
+          </div>
+          <div class="name_job">Eve Gutman <br>(she/they) <br>
+            Fundraising Coordinator</div>
+            <!-- <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div> -->
+            <!-- <p> Lorem ipsum dolor sitamet, stphen hawkin so adipisicing elit. Ratione disuja doloremque reiciendi nemo.</p> -->
+            <div class="btns">
+              <!-- <button>Read More</button> -->
+              <!-- <button>Subscribe</button> -->
+            </div>
+          </div>
+          <div class="box">
+            <div class="image">
+              <img src="./images/isy.jpg" alt="">
+            </div>
+            <div class="name_job">Isy Abraham-Raveson <br>(she/they) <br>
+              Executive Director</div>
+              <!-- <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div> -->
+              <!-- <p> Lorem ipsum dolor sitamet, stphen hawkin so adipisicing elit. Ratione disuja doloremque reiciendi nemo.</p> -->
+              <div class="btns">
+                <!-- <button>Read More</button> -->
+                <!-- <button>Subscribe</button> -->
+              </div>
+            </div>
+            <div class="box">
+              <div class="image">
+                <img src="./team/Jas Philips.jpg" alt="">
+              </div>
+              <div class="name_job">Jasmine Phillips <br>(she/they) <br>
+                Board Secretary</div>
+                <!-- <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div> -->
+                <!-- <p> Lorem ipsum dolor sitamet, stphen hawkin so adipisicing elit. Ratione disuja doloremque reiciendi nemo.</p> -->
+                <div class="btns">
+                  <!-- <button>Read More</button> -->
+                  <!-- <button>Subscribe</button> -->
+                </div>
+              </div>
+              <div class="box">
+                <div class="image">
+                  <img src="./team/jaxson-benjamin.png" alt="">
+                </div>
+                <div class="name_job">Jaxson Benjamin <br>(they/she/Jax) <br>
+                  Board Member</div>
+                  <!-- <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div> -->
+                  <!-- <p> Lorem ipsum dolor sitamet, stphen hawkin so adipisicing elit. Ratione disuja doloremque reiciendi nemo.</p> -->
+                  <div class="btns">
+                    <!-- <button>Read More</button> -->
+                    <!-- <button>Subscribe</button> -->
+                  </div>
+                </div>
+                
+                <div class="box">
+                  <div class="image">
+                    <img src="./images/Screen Shot 2021-08-04 at 5.13.39 PM.png" alt="">
+                  </div>
+                  <div class="name_job">Nat DiFrank <br>(they/them) <br>
+                    Board Member</div>
+                    <!-- <div class="rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div> -->
+                    <!-- <p> Lorem ipsum dolor sitamet, stphen hawkin so adipisicing elit. Ratione disuja doloremque reiciendi nemo.</p> -->
+                    <div class="btns">
+                      <!-- <button>Read More</button> -->
+                      <!-- <button>Subscribe</button> -->
+                    </div>
+                  </div>
+                  <div class="box">
+                    <div class="image">
+                      <img src="./images/natalie.jpg" alt="">
+                    </div>
+                    <div class="name_job">Natalie Smyth <br>(she/her) <br>
+                      Web Director</div>
+                      <!-- <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                      </div> -->
+                      <!-- <p> Lorem ipsum dolor sitamet, stphen hawkin so adipisicing elit. Ratione disuja doloremque reiciendi nemo.</p> -->
+                      <div class="btns">
+                        <!-- <button>Read More</button> -->
+                        <!-- <button>Subscribe</button> -->
+                      </div>
+                    </div>
+                    <div class="box">
+                      <div class="image">
+                        <img src="./team/renee-willett.png" alt="">
+                      </div>
+                      <div class="name_job">Renee Willet <br>(she/her) <br>
+                        Board Co-Treasurer</div>
+                        <!-- <div class="rating">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div> -->
+                        <!-- <p> Lorem ipsum dolor sitamet, stphen hawkin so adipisicing elit. Ratione disuja doloremque reiciendi nemo.</p> -->
+                        <div class="btns">
+                          <!-- <button>Read More</button> -->
+                          <!-- <button>Subscribe</button> -->
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="container">
+                      <h2>Staff and Volunteers</h2>
+                      <div class="box">
+                        <div class="image">
+                          <img src="./team/alabaster-fels.png" alt="">
+                        </div>
+                        <div class="name_job">Alabaster Fels <br>(they/them)<br>
+                          VERBATIM, social media art</div>
+                          <!-- <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+        </div> -->
+        <!-- <p> Lorem ipsum dolor sitamet, stphen hawkin so adipisicing elit. Ratione disuja doloremque reiciendi nemo.</p> -->
+        <div class="btns">
+          <!-- <button>Read More</button> -->
+          <!-- <button>Subscribe</button> -->
+        </div>
+      </div>
+      <div class="box">
+        <div class="image">
+          <img src="./team/bekah-stein.png" alt="">
+        </div>
+        <div class="name_job">Bekah Stein <br>(PRONOUNS)<br>
+        Fundraising team
+        </div>
         <!-- <div class="rating">
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
-          <i class="far fa-star"></i>
-          <i class="far fa-star"></i>
-          <i class="far fa-star"></i>
-        </div> -->
-        <!-- <p> Lorem ipsum dolor sitamet, stphen hawkin so adipisicing elit. Ratione disuja doloremque reiciendi nemo.</p> -->
-        <div class="btns">
-          <!-- <button>Read More</button> -->
-          <!-- <button>Subscribe</button> -->
-        </div>
-      </div>
-      <div class="box">
-        <div class="image">
-          <img src="./images/Ashley_Edwards_square.jpg" alt="">
-        </div>
-        <div class="name_job">Ashley Edwards <br>(she/her)<br>
-        Board President
-        </div>
-        <!-- <div class="rating">
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
           <i class="far fa-star"></i>
           <i class="far fa-star"></i>
@@ -94,10 +287,10 @@
       </div>
       <div class="box">
         <div class="image">
-          <img src="./images/fundraising-coordinator.jpg" alt="">
+          <img src="./team/Ellis.jpg" alt="">
         </div>
-        <div class="name_job">Eve Gutman <br>(she or they) <br>
-        Fundraising Coordinator</div>
+        <div class="name_job">Ellis Schwamm <br>(PRONOUNS) <br>
+        Grant Writer</div>
           <!-- <div class="rating">
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
@@ -113,10 +306,10 @@
       </div>
       <div class="box">
         <div class="image">
-          <img src="./images/isy.jpg" alt="">
+          <img src="./" alt="">
         </div>
-        <div class="name_job">Isy Abraham-Raveson <br>(she or they) <br>
-        Executive Director</div>
+        <div class="name_job">Francesca Montanile <br>(PRONOUNS) <br>
+        VERBATIM team</div>
           <!-- <div class="rating">
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
@@ -132,10 +325,10 @@
       </div>
       <div class="box">
         <div class="image">
-          <img src="./team/Jas Philips.jpg" alt="">
+          <img src="./" alt="">
         </div>
-        <div class="name_job">Jasmine Phillips <br>(she or they) <br>
-        Secretary</div>
+        <div class="name_job">Haley Siegel <br>(PRONOUNS) <br>
+        Social Media Team</div>
           <!-- <div class="rating">
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
@@ -151,10 +344,10 @@
       </div>
       <div class="box">
         <div class="image">
-          <img src="./team/jaxson-benjamin.png" alt="">
+          <img src="./team/kait-gallaugher.png" alt="">
         </div>
-        <div class="name_job">Jaxson Benjamin <br>(they or she or Jax) <br>
-        Board Member</div>
+        <div class="name_job">Kait Gallaugher <br>(PRONOUNS) <br>
+        Grand Writer</div>
           <!-- <div class="rating">
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
@@ -168,13 +361,14 @@
           <!-- <button>Subscribe</button> -->
         </div>
       </div>
+      
 
       <div class="box">
         <div class="image">
-          <img src="./images/Screen Shot 2021-08-04 at 5.13.39 PM.png" alt="">
+          <img src="./" alt="">
         </div>
-        <div class="name_job">Nat DiFrank <br>(they/them) <br>
-        Board Member</div>
+        <div class="name_job">Kate Fishman <br>(PRONOUNS) <br>
+        Social Media & Fundraising</div>
           <!-- <div class="rating">
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
@@ -190,10 +384,67 @@
       </div>
       <div class="box">
         <div class="image">
-          <img src="./images/natalie.jpg" alt="">
+          <img src="./team/liz-anderson.jpg" alt="">
         </div>
-        <div class="name_job">Natalie Smyth <br>(she/her) <br>
-        Web Director</div>
+        <div class="name_job">Liz Anderson <br>she/her <br>
+          Social Media Team</div>
+          <!-- <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div> -->
+          <!-- <p> Lorem ipsum dolor sitamet, stphen hawkin so adipisicing elit. Ratione disuja doloremque reiciendi nemo.</p> -->
+          <div class="btns">
+            <!-- <button>Read More</button> -->
+            <!-- <button>Subscribe</button> -->
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="./" alt="">
+          </div>
+          <div class="name_job">Maya Williams <br>(PRONOUNS) <br>
+            Social Media & VERBATIM</div>
+            <!-- <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div> -->
+            <!-- <p> Lorem ipsum dolor sitamet, stphen hawkin so adipisicing elit. Ratione disuja doloremque reiciendi nemo.</p> -->
+            <div class="btns">
+              <!-- <button>Read More</button> -->
+              <!-- <button>Subscribe</button> -->
+            </div>
+          </div>
+            <div class="box">
+        <div class="image">
+          <img src="./" alt="">
+        </div>
+        <div class="name_job">Melissa Chambers <br>(PRONOUNS) <br>
+        Grant Writer & Facilitator</div>
+          <!-- <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div> -->
+        <!-- <p> Lorem ipsum dolor sitamet, stphen hawkin so adipisicing elit. Ratione disuja doloremque reiciendi nemo.</p> -->
+        <div class="btns">
+          <!-- <button>Read More</button> -->
+          <!-- <button>Subscribe</button> -->
+        </div>
+        </div>
+      <div class="box">
+        <div class="image">
+          <img src="./team/phoebe-hall.png" alt="">
+        </div>
+        <div class="name_job">Phoebe Hall <br>(she/her) <br>
+        Grant Writer & Facilitator</div>
           <!-- <div class="rating">
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
@@ -209,10 +460,10 @@
       </div>
       <div class="box">
         <div class="image">
-          <img src="./team/renee-willett.png" alt="">
+          <img src="./" alt="">
         </div>
-        <div class="name_job">Renee Willet <br>(she/her) <br>
-        Co-Treasurer</div>
+        <div class="name_job">Rotern Miloh <br>(PRONOUNS) <br>
+        Grant Writer & Social Media</div>
           <!-- <div class="rating">
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
@@ -226,10 +477,29 @@
           <!-- <button>Subscribe</button> -->
         </div>
       </div>
-    </div>
+      <div class="box">
+        <div class="image">
+          <img src="./team/theresa-dougherty.png" alt="">
+        </div>
+        <div class="name_job">Theresa Dougherty <br>(PRONOUNS) <br>
+        Grant Writer</div>
+          <!-- <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div> -->
+        <!-- <p> Lorem ipsum dolor sitamet, stphen hawkin so adipisicing elit. Ratione disuja doloremque reiciendi nemo.</p> -->
+        <div class="btns">
+          <!-- <button>Read More</button> -->
+          <!-- <button>Subscribe</button> -->
+        </div>
+      </div>
+      </div>
 
     <footer class="footer">
       &copy; 2021 Your Empowered Sexuality, Inc.
-  </footer>
+    </footer>
   </body>
 </html>
