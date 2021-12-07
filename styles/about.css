@@ -139,6 +139,12 @@ footer {
     margin-bottom: 20px;
   }
 }
+
+@media (max-width:1020px) {
+  .container h2 {
+    padding-left: 20px;
+  }
+}
 @media (max-width:710px){
   .container .box{
     width: 100%;
