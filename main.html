@@ -6,23 +6,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YES! Website</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <script defer src="scripts/index.js"></script>
 </head>
 <body>
     <nav>
-        <div class="menu">
-            <div class="logo">
-                <a href="#">YES!</a>
+        <div class="navbar">
+          <i class='bx bx-menu'></i>
+          <div class="logo"><a href="#">YES!</a></div>
+          <div class="nav-links">
+            <div class="sidebar-logo">
+              <span class="logo-name">YES!</span>
+              <i class='bx bx-x' ></i>
             </div>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Servies</a></li>
-                <li><a href="#">Donate</a></li>
-                <li><a href="#">Contact</a></li>
+            <ul class="links">
+              <li><a href="#">HOME</a></li>
+              <li>
+                <a href="#">ABOUT</a>
+                <i class='bx bxs-chevron-down about-arrow arrow '></i>
+                <ul class="about-sub-menu sub-menu">
+                  <li><a href="#">Our Mission</a></li>
+                  <li><a href="#">Our Vision</a></li>
+                  <li><a href="#">Our Team</a></li>
+                  <li><a href="#">In the media</a></li>
+                  <li class="more">
+                    <span><a href="#">More</a>
+                    <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                  </span>
+                    <ul class="more-sub-menu sub-menu">
+                      <li><a href="#">Lorem Ipsum</a></li>
+                      <li><a href="#">Lorem Ipsum</a></li>
+                      <li><a href="#">Lorem Ipsum</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">PROGRAMS & SERVICES</a>
+                <i class='bx bxs-chevron-down services-arrow arrow '></i>
+                <ul class="services-sub-menu sub-menu">
+                  <li><a href="#">Upcoming Events</a></li>
+                  <li><a href="#">Resources</a></li>
+                  <li><a href="#">Coloring Books</a></li>
+                  <li><a href="#">Lorem Ipsum</a></li>
+                </ul>
+              </li>
+              <li><a href="#">CONTACT US</a></li>
+              <li><a href="#">DONATE</a></li>
             </ul>
+          </div>
+          <div class="search-box">
+            <i class='bx bx-search'></i>
+            <div class="input-box">
+              <input type="text" placeholder="Search...">
+            </div>
+          </div>
         </div>
-    </nav>
+      </nav>
 
     <div class="img"></div>
 
