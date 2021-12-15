@@ -31,6 +31,14 @@ main {
   border-radius: 5px;
 }
 
+.container h1 {
+  color: #fff;
+}
+
+.continer p {
+  color: #fff;
+}
+
 .container h2 {
   padding-left: 350px;
   padding-right: 25px;
@@ -128,67 +136,7 @@ main {
   color: #fff;
 }
 
-footer {
-    /* position: fixed; */
-    background: #C4D8D8;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-}
 
-footer .content {
-  background: #C4D8D8;
-  max-width: 1250;
-  margin: auto;
-  padding: 30px 40px 40px 40px;
-}
-
-footer .content .top {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.content .top .logo-details {
-  color: #fff;
-  font-size: 30px;
-}
-
-.content .top .media-icons {
-  display: flex;
-  padding-bottom: 20px;
-}
-
-.content .top .media-icons a {
-  height: 35px;
-  width: 35px;
-  /* background: red; */
-  margin: 0 8px;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 36px;
-  color: #fff;
-  font-size: 17px;
-  text-decoration: none;
-  background: #ff4800;
-  /* padding-bottom: 10px; */
-}
-
-.top .media-icons a:hover {
-  background: #fff;
-  color: #ff4800;
-}
-
-footer img {
-  width: 150px;
-}
-
-footer p {
-  text-align: center;
-  color: #fff;
-  /* padding-bottom: 20px; */
-  font-size: small;
-}
 @media (max-width:1045px){
   .container .box{
     width: calc(50% - 10px);
