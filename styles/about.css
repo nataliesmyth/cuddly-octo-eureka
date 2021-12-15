@@ -136,6 +136,10 @@ main {
   color: #fff;
 }
 
+/* #board-and-directors, #vision, #mission, #team {
+  padding-top: 10px;
+} */
+
 
 @media (max-width:1045px){
   .container .box{
