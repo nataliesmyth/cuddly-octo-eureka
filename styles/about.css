@@ -129,7 +129,7 @@ main {
 }
 
 footer {
-    position: fixed;
+    /* position: fixed; */
     background: #C4D8D8;
     width: 100%;
     bottom: 0;
@@ -186,7 +186,7 @@ footer img {
 footer p {
   text-align: center;
   color: #fff;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
   font-size: small;
 }
 @media (max-width:1045px){
