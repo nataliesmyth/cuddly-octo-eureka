@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -12,9 +11,10 @@ html {
 h1 {
     font-family: sans-serif;
 }
+
 button {
     background-color: #FF4800;
-    color: #ff4800;
+    color: #fff;
 }
 
 button a {
@@ -25,71 +25,57 @@ button a:hover {
     color:#ff4800
 }
 
-footer {
-    margin: 2em auto;
+.center {
+  position: relative;
+  top: 82px;
+  height: 75vh;
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  /* width: 100%; */
+  /* padding: 0 20px; */
+  text-align: center;
 }
 
-.team-main {
-    min-height: 100vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #ff4800;
+.center .title img {
+    width: 50%;
+    position: relative;
+    /* top: 60px; */
+}
+.center .btns {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.team-cards .team-card .team-content .team-img {
-    height: 130px;
-    width: 130px;
+.center .btns button {
+  height: 55px;
+  width: 170px;
+  border-radius: 5px;
+  border: none;
+  margin: 0 10px;
+  border: 2px solid white;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 10px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
 }
 
-.team-cards .team-card .team-content {
-    display: flex;
-    /* flex-direction: column; */
-    justify-content: center;
-    text-align: center;
+.center .btns button:first-child {
+  color: #fff;
+  background: none;
 }
 
-.team-card .team-content .team-img img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 50%;
+.btns button:first-child:hover {
+  background: white;
+  color: black;
 }
 
-.team-card .team-content .team-details .job {
-    font-size: 20px;
-    color: #ff676d;
+.center .btns button:last-child {
+  background: white;
+  color: black;
 }
 
-.team-card .team-content .team-details .name {
-    text-align: center;
-    font-size: 20px;
-}
-
-/* .team-card .team-content .media-icons {
-    display: flex;
-    margin-top: 10px;
-} */
-
-.team-card .team-content .media-icons a {
-    height: 20px;
-    width: 20px;
-    background: #fff;
-    color: #ff676d;
-    margin: 0 4px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 35px;
-    border: 0.0025px solid;
-    font-size: 14px;
-}
-
-.team-card .team-content .media-icons a:hover {
-    border-color: #ff676d;
-    color: #ff676d;
-    background: #fff;
-}
 .coloring-book {
     width: 50%;
     margin: 0 auto;
@@ -121,71 +107,3 @@ footer {
     background: #007bb5;
     color: white
 }
-
-h1 {
-    font-family: 'Yrsa', serif;
-    font-size: 50px
-}
-
-.flip-card {
-    background-color: transparent;
-    width: 260px;
-    height: 100px;
-    perspective: 1000px
-}
-
-.flip-card-inner {
-    width: 260px;
-    height: 300px;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d
-}
-
-.flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg)
-}
-
-.flip-card-front,
-.flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden
-}
-
-.flip-card-front {
-    background-color: #bbb;
-    color: black
-}
-
-.flip-card-back {
-    transform: rotateY(180deg);
-    width: 260px;
-    height: 300px;
-    background-color: #ff4800
-}
-
-.card-title {
-    color: #007b5e;
-    padding: 20px
-}
-
-header {
-    background-color: #FF4800
-}
-
-.person {
-    color: #FF4800;
-    font-family: 'Yrsa', serif;
-    font-size: 30px;
-    padding: 15px
-}
-
-.card-body {
-    background-color: #ff4800
-}
-
-/* .row {
-    min-height: 450px;
-} */

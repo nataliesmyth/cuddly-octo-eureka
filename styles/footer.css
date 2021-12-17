@@ -5,45 +5,53 @@
   box-sizing: border-box;
   font-family: "Poppins" , sans-serif;
 }
-body{
+body {
   min-height: 100vh;
   width: 100%;
   background: #EEECEB;
 }
-footer{
-  position: fixed;
+
+footer {
+  /* position: fixed; */
+  margin-top: 40px;
   background: #C4D8D8;
   width: 100%;
   bottom: 0;
   left: 0;
 }
-footer::before{
+
+footer::before {
   content: '';
   position: absolute;
   left: 0;
-  top: 100px;
+  top: -100px;
   height: 1px;
   width: 100%;
   background: #AFAFB6;
 }
-footer .content{
+
+footer .content {
   max-width: 1250px;
   margin: auto;
   padding: 30px 40px 40px 40px;
 }
-footer .content .top{
+
+footer .content .top {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 50px;
 }
-.content .top .logo-details{
+
+.content .top .logo-details {
   color: #fff;
   font-size: 30px;
 }
-.content .top .media-icons{
+
+.content .top .media-icons {
   display: flex;
 }
+
 .content .top .media-icons a{
   height: 40px;
   width: 40px;
@@ -139,11 +147,12 @@ footer .content .link-boxes .box {
   color: #fff;
   margin-top: 5px;
 }
-.link-boxes .input-box input::placeholder{
+.link-boxes .input-box input::placeholder {
   color: #AFAFB6;
   font-size: 16px;
 }
-.link-boxes .input-box input[type="button"]{
+
+.link-boxes .input-box input[type="button"] {
   background: #fff;
   color: #140B5C;
   border: none;
@@ -154,6 +163,7 @@ footer .content .link-boxes .box {
   cursor: pointer;
   transition: all 0.4s ease;
 }
+
 .input-box input[type="button"]:hover{
   opacity: 1;
 }
@@ -217,9 +227,10 @@ footer .bottom-details .bottom_text{
   }
 }
 @media (max-width: 520px){
-  footer::before{
+  footer::before {
     top: 145px;
   }
+
   footer .content .top{
     flex-direction: column;
   }
