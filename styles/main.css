@@ -83,15 +83,18 @@ button a:hover {
 }
 
 .btns button:first-child:hover {
-  background: white;
-  color: black;
+  background: #FF4800;
+  /* color: black; */
 }
 
 .center .btns button:last-child {
-  background: white;
+  background: #ff4800;
   color: black;
 }
 
+.center .btns button:last-child:hover {
+    color: #fff;
+}
 .coloring-book {
     width: 50%;
     margin: 0 auto;

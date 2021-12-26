@@ -51,24 +51,39 @@ const rootElement = document.getElementById('rootElement');
 
 // Array of objects
 const team = [
-  {name: 'Bo Scarim (they/she)', role: 'test', image: './../team/Hazel.jpg', bio: 'test'},
-  {name: 'Phoebe Hall (she/her)', role: 'test', image: 'Hazel.jpg', bio: 'test'},
-  {name: 'Ellis Schwamm (he/they)', role: 'test', image: 'test', bio: 'test'},
-  {name: 'Hazel Moffatt (any pronouns)', role: 'test', image: 'test', bio: 'test'},
-  {name: 'Liz Anderson(she/they)', role: 'test', image: 'test', bio: 'test'},
-  {name: 'Angelica Thorne (she/her)', role: 'test', image: 'test', bio: 'test'},
-  {name: 'Jasmine Phillips (she/her)', role: 'test', image: 'test', bio: 'test'},
-  {name: 'Jaxson Benjamin (they/she)', role: 'test', image: 'test', bio: 'test'},
-  {name: 'Nat DiFrank (they/them', role: 'test', image: 'test', bio: 'test'},
-  {name: 'DeHaven Mays(they/them)', role: 'test', image: 'test', bio: 'test'},
-  {name: 'Renee Willett(she/her)', role: 'test', image: 'test', bio: 'test'},
-  {name: 'Isy Abraham-Raveson (She/They)', role: 'test', image: 'test', bio: 'test'},
-  {name: 'Rebecca Klein (she/they)', role: 'test', image: 'test', bio: 'test'},
-  {name: 'Natalie Smyth', role: 'test', image: 'test', bio: 'test'},
-  {name: 'Ashley Edwards', role: 'Board President', image: 'test', bio: 'test'},
-  {name: 'Eve Gutman', role: 'Fundraising Coordinator ', image: 'test', bio: 'test'},
-  {name: 'test', role: 'test', image: 'test', bio: 'test'},
+  {name: 'Bo Scarim (they/she)'},
+  {name: 'Phoebe Hall (she/her)'},
+  {name: 'Ellis Schwamm (he/they)'},
+  {name: 'Hazel Moffatt (any pronouns)'},
+  {name: 'Liz Anderson(she/they)'},
+  {name: 'Angelica Thorne (she/her)'},
+  {name: 'Jasmine Phillips (she/her)'},
+  {name: 'Jaxson Benjamin (they/she)'},
+  {name: 'Nat DiFrank (they/them'},
+  {name: 'DeHaven Mays(they/them)'},
+  {name: 'Renee Willett(she/her)'},
+  {name: 'Isy Abraham-Raveson (She/They)'},
+  {name: 'Rebecca Klein (she/they)'},
+  {name: 'Natalie Smyth'},
+  {name: 'Ashley Edwards'},
+  {name: 'Eve Gutman'},
 ]
+
+const searchInput = document.querySelector('.search-box');
+
+searchInput.addEventListener('input', (e) => {
+  // declare and assign value of the event's target to a variable, the variable being whatever is typed in the search bar
+  let value = e.target.value
+  // check if input exists and is larger than zero
+  if (value && value.trim().length > 0) {
+    // redefine 'value' to exclude white space and change input to all lowercase
+    value = value.trim().toLowerCase()
+    // return results only if the value of the search is included in the person's name
+  } else {
+    // return nothing bc input is invalid.
+    // Show an error message or no results
+  }
+})
 
 // Create a template to plug each object into
 // Function expression
